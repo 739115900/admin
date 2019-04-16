@@ -1,0 +1,71 @@
+navData: [
+    {
+        name: '在线监测',
+        img: '1',
+        id: 1,
+        routerLink: 'index',
+        children: [
+            {
+                name: '全景监测',
+                img: '1',
+                id: '1-0',
+                routerLink: 'index',
+                
+            },
+            {
+                name: '充电桩系统',
+                img: '1',
+                id: '1-1',
+                routerLink: 'chargingPile',
+                
+            }
+        ]
+    },
+    {
+        name: '数据中心',
+        img: '2',
+        id: 2,
+        routerLink: 'dataCenter',
+        children: [
+            {
+                name: '全景监测1',
+                img: '1',
+                id: '2-0',
+                routerLink: 'dataCenter',
+                
+            },
+            {
+                name: '能量转换1',
+                img: '1',
+                id: '2-1',
+                routerLink: 'dataCenter1',
+                
+            },
+            {
+                name: '全景监测1',
+                img: '1',
+                id: '2-2',
+                routerLink: 'dataCenter3',
+                
+            }
+        ]
+    },
+    {
+        name: '业务系统',
+        img: '3',
+        id: 3,
+        routerLink: 'businessSystem',
+        children: [
+            
+        ]
+    },
+    {
+        name: '控制中心',
+        img: '4',
+        id: 4,
+        routerLink: 'controlCenter',
+        children: [
+            
+        ]
+    }
+]

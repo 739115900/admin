@@ -9,7 +9,6 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 
-
 export default {
   name: 'home',
   components: {
@@ -20,6 +19,10 @@ export default {
   },
   methods:{
     submit(){
+      this.$post('./nav.json',{id:1,k:1})
+      .then((response) => {
+        console.log(response)
+      })
       this.socketApi.sendSock()
     }
   }
